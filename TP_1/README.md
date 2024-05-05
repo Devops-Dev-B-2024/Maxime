@@ -18,6 +18,8 @@ Dans mon entreprise, un silot s'est développé depuis le confinement. La mise e
 
 ## PRATIQUES DEVOPS
 
+
+
 ## ARCHITECTURE
 
 ## PROCESSUS DE BUILD
