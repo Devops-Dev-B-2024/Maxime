@@ -1,0 +1,13 @@
+name: Build app
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest # os
+    steps: # followed steps
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+      - name: Build app
+        run: cd TP_3 && docker-compose up -d
