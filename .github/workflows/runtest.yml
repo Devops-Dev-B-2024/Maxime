@@ -12,4 +12,4 @@ jobs:
       - name: Install dependencies
         run: cd TP_3/rhyme && npm ci
       - name: Run Tests
-        run: npm run test
+        run: cd TP_3/rhyme && npm run test
